@@ -1,0 +1,49 @@
+.con-about {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  .about-con {
+    display: flex;
+    justify-content: space-between;
+  
+    &:first-child,
+    &:last-child {
+      padding: 5rem 0;
+    }
+    .about-l img {
+      height: 300px;
+      width: 300px;
+      border-radius: 10px;
+    }
+    .about-r {
+      padding-left: 5rem;
+      padding-right: 5rem;
+      padding-bottom: 4rem;
+      text-align: left;
+      .text-h2 {
+        text-align: center;
+      }
+      
+      .text-p {
+        text-indent: 3rem;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about-con {
+    display: flex;
+    flex-direction: column;
+    margin-top: 285px;
+    
+  }
+
+  
+}
+
+
+
+
+

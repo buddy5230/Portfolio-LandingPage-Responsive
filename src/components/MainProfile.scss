@@ -1,0 +1,86 @@
+.con-main {
+  max-width: 960px;
+  margin: 0 auto;
+  height: 420px;
+}
+.MainProfile-con {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+.logo-self {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin-right: auto;
+}
+
+.MainProfile-text {
+  h1,
+  h2 {
+    font-family: "Trebuchet MS", sans-serif;
+  }
+  p {
+    padding-right: 8rem;
+  }
+  color: black;
+  text-align: left;
+  margin-left: auto;
+  h2::before {
+    content: "--------------------";
+    letter-spacing: -4px;
+    margin-right: 10px;
+  }
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+  font-size: 1.5em;
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .MainProfile-con {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+  .MainProfile-text {
+    text-align: center;
+    h2 {
+      padding-right: 85px;
+    }
+    p {
+      padding-left: 120px;
+    }
+  }
+}

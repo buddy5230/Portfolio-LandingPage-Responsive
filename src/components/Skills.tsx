@@ -62,7 +62,7 @@ const Skills: React.FC = () => {
           </div>
           <div className="icon-item">
             <SiExpress className="icon"></SiExpress>
-            <p>Express</p>
+            <p>Expressjs</p>
           </div>
           <div className="icon-item">
             <SiTailwindcss className="icon"></SiTailwindcss>

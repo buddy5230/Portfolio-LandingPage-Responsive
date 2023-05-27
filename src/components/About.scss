@@ -32,17 +32,36 @@
     }
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .about-con {
     display: flex;
     flex-direction: column;
     margin-top: 285px;
     
   }
-
-  
 }
-
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .about-con {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+}
+@media screen and (width: 360px){
+  .about-con {
+    display: flex;
+    flex-direction: column;
+    margin-top: 310px;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 320px) {
+  .about-con {
+    display: flex;
+    flex-direction: column;
+    margin-top: 350px;
+   
+  }
+}
 
 
 

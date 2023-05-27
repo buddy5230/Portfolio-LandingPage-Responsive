@@ -2,12 +2,13 @@
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center; /* เพิ่มคำสั่งนี้ */
-  align-items: center; /* เพิ่มคำสั่งนี้ */
+  
 }
 
 .box-contact {
   display: flex;
   align-items: center;
+  justify-content: start;
   background-color: #e8e8e8;
   width: 330px;
   height: 30px;
@@ -20,39 +21,51 @@
     height: 35px;
     color: black;
   }
-  .set-text {
+  .set-text{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
-    margin-left: 20px;
     h2 {
       margin-bottom: 5px; 
     }
     p {
       margin-top: 5px;
+      margin-left: 20px;
     }
-    .email{
-      margin-right: 140px;
+    .icon-set{
+      display: flex;
+      justify-content: start;
+      margin-left: 20px;
     }
-    .face{
-      margin-right: 35px;
-    }
-    .phone{
-      margin-right:20px;
-    }
-    .git{
-      margin-right:145px;
-    }
-    
+
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1060px) {
   .con-contact {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
-
+}
+@media screen and (min-width: 280px) and (max-width: 320px) {
   
+  .box-contact {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    width: 160px;
+    align-items: center;
+    .icon{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .icon-set{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+  }
 }

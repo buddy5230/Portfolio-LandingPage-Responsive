@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
         <div className="box-contact">
           <MdEmail className="icon"></MdEmail>
           <div className="set-text">
-            <h2 className="email">Email</h2>
+            <h2 className="icon-set">Email</h2>
             <p>poopirat.buddy@gmail.com</p>
           </div>
         </div>
@@ -21,14 +21,14 @@ const Contact: React.FC = () => {
             <AiFillFacebook className="icon"></AiFillFacebook>
           </a>
           <div className="set-text">
-            <h2 className="face">Facebook</h2>
+            <h2 className="icon-set">Facebook</h2>
             <p>B'uddy Natthanasak</p>
           </div>
         </div>
         <div className="box-contact">
           <BsFillPhoneFill className="icon"></BsFillPhoneFill>
           <div className="set-text">
-            <h2 className="phone">Phone</h2>
+            <h2 className="icon-set">Phone</h2>
             <p>093-3186594</p>
           </div>
         </div>
@@ -38,7 +38,7 @@ const Contact: React.FC = () => {
             <AiFillGithub className="icon"></AiFillGithub>
           </a>
           <div className="set-text">
-            <h2 className="git">Github</h2>
+            <h2 className="icon-set">Github</h2>
             <p>https://github.com/buddy5230</p>
           </div>
         </div>

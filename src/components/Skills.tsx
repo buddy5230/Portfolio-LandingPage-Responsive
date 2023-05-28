@@ -16,6 +16,7 @@ import {
   SiReact,
   SiMongodb,
   SiVisualstudio,
+  SiMysql,
 } from "react-icons/si";
 import { FiFigma } from "react-icons/fi";
 
@@ -82,8 +83,8 @@ const Skills: React.FC = () => {
             <p>MongoDb</p>
           </div>
           <div className="icon-item">
-            <BsFiletypeSql className="icon" />
-            <p>Sql</p>
+            <SiMysql className="icon" />
+            <p>MySql</p>
           </div>
         </div>
       </div>

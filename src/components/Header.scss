@@ -4,7 +4,6 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  
 }
 
 .header-con {
@@ -66,9 +65,9 @@
     }
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .logo-container {
-   margin-left: 50px;
+    margin-left: 50px;
   }
 }
 .mobile-menu {
@@ -79,7 +78,6 @@
     color: #fff;
     font-size: 2rem;
   }
-  
 }
 
 @media screen and (max-width: 650px) {

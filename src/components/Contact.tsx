@@ -7,7 +7,7 @@ import { BsFillPhoneFill } from "react-icons/bs";
 const Contact: React.FC = () => {
   return (
     <>
-      <h1>Contact</h1>
+      <h1 className="h1-contact">Contact</h1>
       <div className="con-contact" id="contact">
         <div className="box-contact">
           <MdEmail className="icon"></MdEmail>
@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
             <p>B'uddy Natthanasak</p>
           </div>
         </div>
-        <div className="box-contact">
+        <div className="box-contact" >
           <BsFillPhoneFill className="icon"></BsFillPhoneFill>
           <div className="set-text">
             <h2 className="icon-set">Phone</h2>

@@ -1,8 +1,11 @@
+.set-Projects{
+  margin-top: 200px;
+}
 .slideshow-container {
   width: 400px;
   margin: 0 auto;
   position: relative;
-  margin-bottom: 100px;
+  
 }
 
 .each-slide {
@@ -60,12 +63,36 @@
     width: 270px;
     margin: 0 auto;
     position: relative;
-    margin-bottom: 100px;
   }
   
   .each-slide {
     height: 300px;
     width: 270px;
+    border: 10px solid #e8e8e8;
+    border-bottom: 50px solid #e8e8e8;
+    border-top: 50px solid #e8e8e8;
+    h2{
+      position: absolute;
+      font-size: small;
+      padding-top: 160px;
+    }
+    .set_item {
+      position: absolute;
+      top: 250px;
+    }
+  }
+}
+@media screen and (max-width: 440px) {
+  .slideshow-container {
+    width: 320px;
+    margin: 0 auto;
+    position: relative;
+    
+  }
+  
+  .each-slide {
+    height: 300px;
+    width: 320px;
     border: 10px solid #e8e8e8;
     border-bottom: 50px solid #e8e8e8;
     border-top: 50px solid #e8e8e8;

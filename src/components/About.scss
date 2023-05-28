@@ -2,11 +2,11 @@
   max-width: 960px;
   margin: 0 auto;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 96px;
   .about-con {
     display: flex;
     justify-content: space-between;
-  
+
     &:first-child,
     &:last-child {
       padding: 5rem 0;
@@ -21,10 +21,10 @@
       padding-right: 5rem;
       padding-bottom: 4rem;
       text-align: left;
-      .text-h2 {
+      .text-h1 {
         text-align: center;
       }
-      
+
       .text-p {
         text-indent: 3rem;
         margin-left: 10px;
@@ -37,7 +37,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 285px;
-    
   }
 }
 @media screen and (min-width: 321px) and (max-width: 480px) {
@@ -47,7 +46,7 @@
     margin-top: 200px;
   }
 }
-@media screen and (width: 360px){
+@media screen and (width: 360px) {
   .about-con {
     display: flex;
     flex-direction: column;
@@ -59,10 +58,5 @@
     display: flex;
     flex-direction: column;
     margin-top: 350px;
-   
   }
 }
-
-
-
-

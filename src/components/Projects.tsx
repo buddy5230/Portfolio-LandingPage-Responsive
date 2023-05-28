@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
 
   return (
     <>
-      <h1 id="projects">Projects</h1>
+      <h1 id="projects" className="set-Projects">Projects</h1>
       <div className="slideshow-container">
         <Slide
           slidesToScroll={1}
@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
             <h2>หมอพร้อม Web-Application</h2>
             <img src={slides[0]} alt="" />
             <div className="set_item">
-              <a href="https://capable-chimera-22cca2.netlify.app/">
+              <a href="https://boisterous-tapioca-752f30.netlify.app">
                 <IoMdLink className="icon-link-1" />
               </a>
               <a href="https://github.com/buddy5230/Reacttsx-Doctor-App">

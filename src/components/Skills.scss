@@ -1,3 +1,4 @@
+
 .con-skills {
   display: grid;
   grid-template-columns: auto auto;
@@ -71,12 +72,6 @@
     }
   }
 }
-@media screen and (max-width: 1000px) {
-  .con-skills{
-    display: flex;
-    flex-direction: column;
-  }
-}
 @media screen and (min-width: 280px) and (max-width: 320px) {
   .con-skills{
     display: flex;
@@ -97,6 +92,34 @@
     width: 170px;
     height: 300px;
     }
+  }
+}
+@media screen and (max-width: 440px) {
+  .con-skills{
+    display: flex;
+    flex-direction: column;
+    .box-skills {
+      display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    }
+    .icon-item{
+      display: flex;
+      flex-direction: column;
+    }
+    .box-skills-flex{
+      display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .con-skills{
+    display: flex;
+    flex-direction: column;
   }
 }
 
